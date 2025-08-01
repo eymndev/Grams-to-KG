@@ -1,8 +1,8 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='Grams_to_KG',
     version='0.1.0',
-    py_modules=['lib_Grams_to_KG'],
-    include_package_data=True
+    packages=find_packages(), 
+    include_package_data=True,
 )
