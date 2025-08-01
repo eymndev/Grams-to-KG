@@ -12,5 +12,5 @@ def _license():
     print("\n\nFonctions copied from libemcalc.py")
 
 if __name__ == "__main__":
-_license()
-exit(0)
+    _license()
+    exit(0)
