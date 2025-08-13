@@ -6,14 +6,12 @@ with open("requirements.txt") as f:
 setup(
     name='Grams-to-KG',
     version='0.1.0',
-    python_requires<='3.9'
+    python_requires=">=3.8,<4",
     author='eymndev',
     author_email='eymenyildirim13@icloud.com',
     description='auto convert Grams to KG',
     url='https://github.com/eymndev/Grams-to-KG',
-    license='GPLv3',
+    license="GPL-3.0",
     install_requires=requirements,
-    py_modules=[
-        'packages=['lib_Grams_to_KG']',
-    ],
+    py_modules=["lib_Grams_to_KG"],
 )
